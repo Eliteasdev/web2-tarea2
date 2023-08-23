@@ -1,0 +1,76 @@
+:root{
+  --color--bg: #15171b;  
+  --color--purple: #9580ff;
+  --color--purple-secondary: #414558;
+  --color-cyan: #80ffea;
+  --color--bg-secondary: #1d1e26;
+  --color--green:#8aff80;
+  --color--pink:#ff80bf;
+}
+html{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background-color: var(--color--bg);
+  color: white;
+  font-weight: bold;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 2rem;
+  border: solid 1px;
+}
+
+.user{
+  display: inline;
+  color: var(--color--green);
+}
+
+
+h1{
+  font-size: medium;
+  color: var(--color--pink);
+}
+
+h1 span{
+  background-color: var(--color--purple-secondary);
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.banner-text {
+  font-size: 4rem;
+  background-color: var(--color--purple);
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-flex;
+  max-width: 200px;
+  flex-shrink: 0;
+  margin: 10px 0px 0px 10px;
+}
+
+.code-content span{
+  background-color: var(--color--purple-secondary);
+  color: #fff;
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.p-description{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  font-style: italic;
+}
+
+code{
+  font-size: 24px;
+}
